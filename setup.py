@@ -9,7 +9,7 @@ except ImportError:
 
 packages = ['swaggergenerator']
 requires = [
-    'flex >= 6.13.1',  # https://github.com/pipermerriam/flex/pull/111
+    'flex == 6.13.1',  # https://github.com/pipermerriam/flex/pull/111
     'pyyaml',
 ]
 
